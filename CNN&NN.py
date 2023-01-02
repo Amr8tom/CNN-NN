@@ -94,7 +94,7 @@ def Normalize_for_rbg(images):
 X_train, Y_train = load_data(path_train)
 X_test, Y_test = load_data(path_test)
 X_val, Y_val = load_data(path_val)
-# هذه الفانكشن للاتنين نوع من الصور يا معيدتنا يا قمر لل RBG وال GRAY 
+# هذه الفانكشن للاتنين نوع من الصور يا قمر يا اللي بتقري RBG وال GRAY 
 # let Sec_NN true for build Two NN
 # make type Gray To apply Cnn in Gray images data
 def learn_model (X_train,Y_train,X_test,Y_test,X_val,Y_val,type="rbg",Sec_NN=False):
