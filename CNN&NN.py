@@ -171,9 +171,6 @@ learn_model(X_train=X_train,Y_train=Y_train,X_test=X_test,Y_test=Y_test,X_val=X_
 #  model for rgb images  Accuracy:  96.79%  remove comment to see RBG result
 #learn_model(X_train=X_train,Y_train=Y_train,X_test=X_test,Y_test=Y_test,X_val=X_val,Y_val=Y_val,type="rgb")
 #####################
-Categories=['Cars','Ice cream cone','Cricket ball']
-flat_data_arr=[] #input array
-target_arr=[] #output array
 datadir='/content/drive/MyDrive/ML' 
 #support_vector_machin
 def support_vector_machine(X_train,X_test,Y_train,Y_test):
